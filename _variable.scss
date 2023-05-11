@@ -1,0 +1,21 @@
+$ylwColor: yellow;
+$orngColor: orange;
+$gryColor: gray;
+$location: space-between;
+
+@mixin card {
+    width: 30%;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-family: sans-serif;
+}
+
+@mixin cardimg {
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}

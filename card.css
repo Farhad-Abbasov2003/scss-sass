@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(191, 190, 190);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.title-text {
+  text-align: center;
+  padding: 1rem 12rem 3rem 12rem;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-family: sans-serif;
+}
+
+.card img {
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  color: gray;
+}
+
+.text-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.text-2 {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
+.price {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  color: orange;
+}
+
+.stars i {
+  color: yellow;
+}
+
+.texts {
+  padding: 1rem 1rem;
+}
+
+.card img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .title-text {
+    padding-bottom: 0rem;
+    padding: 0rem 3rem;
+  }
+}/*# sourceMappingURL=card.css.map */
